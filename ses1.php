@@ -1,7 +1,6 @@
 <?php
 
-   session_start();
+   setcookie('name','Kamal');
 
-   echo $_SESSION['id'];
 
 ?>
